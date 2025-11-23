@@ -64,3 +64,6 @@ temp/
 
 # Documentation (optional - remove if you want to commit these)
 *.md.backup
+
+.kiro
+.vscode
