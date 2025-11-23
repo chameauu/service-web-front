@@ -269,30 +269,9 @@ Built with **shadcn/ui** components:
 - Responsive navigation
 - Loading states and skeletons
 
-## 📝 Recent Updates (November 2025)
-
-### Added
-- ✅ Device Groups feature (10 endpoints)
-- ✅ Group filtering on dashboard and devices pages
-- ✅ Admin sees all devices system-wide
-- ✅ User activation/deactivation
-- ✅ Group count badges on devices
-- ✅ Modal-based group management
-- ✅ Color-coded groups with 8 presets
-
-### Removed
-- ❌ Charts page (backend endpoints not available)
-- ❌ JWT authentication (simplified to admin token)
-
-### Changed
-- 🔄 Simplified authentication (admin token only)
-- 🔄 Improved error handling
-- 🔄 Better loading states
-- 🔄 Enhanced UI/UX with modals
-
 ## 🐛 Known Issues
 
-- User deletion works but list refresh may fail (backend authentication issue)
+- User list refresh may fail after deletion (backend authentication issue)
 - Chart endpoints return 404 (backend not implemented)
 
 ## 🚀 Future Enhancements
